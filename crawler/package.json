@@ -1,0 +1,21 @@
+{
+  "name": "@nb/crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "crawl": "ts-node ./index.ts"
+  },
+  "author": "Nikolay Babanov",
+  "license": "ISC",
+  "dependencies": {
+    "crawler": "^1.4.0",
+    "jsdom": "^21.1.0",
+    "puppeteer": "^19.6.2"
+  },
+  "devDependencies": {
+    "@types/crawler": "^1.2.2",
+    "@types/jsdom": "^20.0.1",
+    "ts-node": "^10.9.1"
+  }
+}
